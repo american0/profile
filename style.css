@@ -78,12 +78,21 @@ ul, menu, dir {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
+.clear {
+    clear: both;
+}
+
 .fa {
     display: inline-block;
     font: normal normal normal 32px/1 FontAwesome;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+#footer {
+    position: relative;
+    padding: 10px 400px 60px 20px;
 }
 
 .img-border {
@@ -96,6 +105,7 @@ ul, menu, dir {
 
 .list-inline {
     padding-left: 0;
+    font-size: 12px;
 }
 
 .list-inline li {
@@ -138,4 +148,47 @@ color: #999999;
 }
 #sidebar a:hover {
 color: #cccccc;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1);
+}
+
+#left-container {
+    width: 35%;
+    float: left;
+    min-height: 650px;
+}
+
+#left-container .card:first-child {
+    min-height: 370px;
+}
+
+#left-container .card:last-child {
+    min-height: 135px;
+}
+
+.card:last-child {
+    margin-bottom: 0px;
+}
+
+#right-container .card {
+    min-height: 530px;
+}
+
+#right-container {
+    width: 60%;
+    float: right;
+    min-height: 650px;
+}
+
+#share {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    right: 0px;
 }
