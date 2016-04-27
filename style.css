@@ -88,17 +88,49 @@ ul, menu, dir {
 .img-profile{
   border: 4px solid #CCCCCC;
 }
+
 .list-inline {
     padding-left: 0;
 }
+
 .list-inline li {
     display: inline-block;
     padding: 20px;
 }
+
 .text-center {
   text-align: center;
 }
+
 #movies td {
     padding: 10px;
     font-size: 13px;
+}
+
+#page-content {
+  margin-left: 120px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#sidebar a {
+color: #999999;
+}
+#sidebar a:hover {
+color: #cccccc;
 }
